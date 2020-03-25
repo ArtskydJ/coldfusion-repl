@@ -73,7 +73,7 @@
 									<cfcatch>
 										<div class="error">
 											ERROR: #cfcatch.message#
-											<button type="button" onclick="show(this)">▬§¶‼v↕↕◄show details</button>
+											<button type="button" onclick="show(this)">show details</button>
 										</div>
 										<div data-collapsed="1"><cfdump var="#cfcatch#"></div>
 									</cfcatch>
